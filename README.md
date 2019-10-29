@@ -7,7 +7,7 @@ Registro de archivos binarios (.txt) en una base de datos NoSQL como MongoDB, un
 - Bootstrap
 - HTML
 
-#### Capturas
+#### Screencapture
 
 - Screencapture del index.html (Pagina principal)
 ![](docs/screencapture-index.png)
