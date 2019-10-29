@@ -1,0 +1,16 @@
+La termodinamica es la parte de la fisica que se encarga de la relación entre el calor y el trabajo. En este apartado estudiaremos:
+
+-La equivalencia entre unidades de trabajo y de calor
+-Que estudia la termodinamica:
+
+	La termodinamica es la parte de la física que estudia las transferencias de calor, la conversión de la 
+	energia y la capacidad de los sistemas para producir trabajo. Las leyes de la termodinamica explican los
+	comportamientos globales de los sistemas macroscopicos en situaciones de equilibrio.
+
+-Los componentes principales de un sistema termodinamico
+-Que son las variables de estado y como se relacionan entre si
+-Los principios que rigen la termodinamica
+-Los criterios de signos más extendidos en termodinámica
+-¿Estas preparado?
+
+Tomado de: https://www.fisicalab.com/apartado/termodinamica-concepto#contenidos

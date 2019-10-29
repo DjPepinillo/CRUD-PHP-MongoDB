@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Registro de archivos en MongoDB</h1>
+        <hr>
+        <aside class="float-right">
+                <h5>Integrantes:</h5>
+                <p>
+                    <ul>
+                        <li>Ivan Andres Herrera Pertuz</li>
+                        <li>Amir de Jesus Nisperuza Maestre</li>
+                    </ul>
+                </p>
+            </aside>
+        <div class="card" style="width: 50rem;">
+            <div class="card-body">
+                <form action="guardar.php" method="POST" method="FILE" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="_id"><strong>Id del archivo</strong></label>
+                        <input type="text" name="id" class="form-control" placeholder="Ingresa el identificador del archivo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="descripcion"><strong>Descripcion del archivo</strong></label>
+                        <input type="text" name="des" class="form-control" placeholder="Ingresa una breve descripcion del archivo" required>
+                    </div>  
+                    <div class="form-group">
+                        <label for=""><strong>Archivo</strong></label><br>
+                        <input type="file" name="arc" id="archivo" required>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> <strong>Registrar</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+
+        <div class="card" style="width: 50rem;">
+            <div class="card-body">
+                <h1 class="title">Buscar archivo</h1>
+                <hr>
+                <form action="buscar.php" method="POST">
+                    <div class="form-group">
+                        <label for="id"><strong>Id</strong></label>
+                        <input style="width: 20rem;" type="text" name="id" class="form-control" placeholder="Ingresa el identificador del archivo" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> <strong>Buscar</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
