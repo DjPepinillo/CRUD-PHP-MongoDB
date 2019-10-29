@@ -11,7 +11,7 @@ Registro de archivos binarios (.txt) en una base de datos NoSQL como MongoDB, un
 
 - Screencapture del index.html (Pagina principal)
 ![](docs/screencapture-index.png)
-- Screencapture del guardar.php (Notificacion de que se guardo el archivo)
+- Screencapture de guardar.php (Notificacion de que se guardo el archivo)
 ![](docs/screencapture-notificacion-de-guardado.png)
-- Screencapture del index.html (Pagina para visualizar el contenido del archivo)
+- Screencapture de buscar.php (Pagina para visualizar el contenido del archivo)
 ![](docs/screencapture-lectura-del-archivo.png)
