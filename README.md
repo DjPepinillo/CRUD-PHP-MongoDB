@@ -16,16 +16,13 @@ Registro de archivos binarios (.txt) en una base de datos NoSQL como MongoDB, un
 - Screencapture de buscar.php (Pagina para visualizar el contenido del archivo)
 ![](docs/screencapture-lectura-del-archivo.PNG)
 
-##### Realizado por estudiantes de la Corporacion Universitaria del Caribe CECAR
-
 ##### Social Media
 
-Twitter: <https://twitter.com/CreativeTim>
+Twitter: <https://twitter.com/IvanPertu>
 
-Facebook: <https://www.facebook.com/CreativeTim>
+Instagram: <https://www.instagram.com/ivanherrera.27>
 
-Dribbble: <https://dribbble.com/creativetim>
+##### Realizado por estudiantes de la Corporacion Universitaria del Caribe CECAR
 
-Google+: <https://plus.google.com/+CreativetimPage>
 
-Instagram: <https://instagram.com/creativetimofficial>
+
